@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    android:background="#2B2B2B"
+    android:padding="16dp">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginBottom="16dp"
+        android:progress="50"
+        android:max="100"
+        android:progressTint="#E76F00" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Master Java!"
+        android:textSize="24sp"
+        android:textColor="#E76F00"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/ivCharacter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/java_logo"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which keyword is used to define a class in Java?"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/Option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="class"
+        android:backgroundTint="#E76F00"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/Option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="def"
+        android:backgroundTint="#E76F00"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/Option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="function"
+        android:backgroundTint="#E76F00"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/Option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="method"
+        android:backgroundTint="#E76F00"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
