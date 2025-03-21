@@ -3,12 +3,12 @@
 
 Like Duolingo, **Javocado** is a Java programming learning tool that aims to make coding enjoyable and approachable. It streamlines the Java learning process and assists users in gradually developing their programming abilities through interactive exercises and gamified tutorials.
 
-# 📦 How to clone in Android Studio 📦
+## 📦 How to clone in Android Studio 📦
 Go to **Android Studio** > Clone Repository > Input to URL: [https://github.com/altxxr0/Javocado.git](https://github.com/altxxr0/Javocado.git) > Clone
 
 Then **Android Studio** Toolbar (Top / Hamburger, Top Left) > Git > Update Project 
 
-# ⤴ Contribution ⤴
+## ⤴ Contribution ⤴
 Create Your Own Branch in **Android Studio** (Top / Hamburger, Top Left) > Git > New Branch ...
 
 - Use **Commit** after you're done coding in order for it to be saved in the Timeline (Local Repository)
