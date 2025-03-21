@@ -11,10 +11,10 @@ Then **Android Studio** Toolbar (Top / Hamburger, Top Left) > Git > Update Proje
 ## ⤴ Contribution ⤴
 Create Your Own Branch in **Android Studio** (Top / Hamburger, Top Left) > Git > New Branch ...
 
-- Use **Commit** after you're done coding in order for it to be saved in the Timeline (Local Repository)
-- Use **Push** to upload the codebase to your specified branch
-- Use **Update Project** to Update the entire codebase in your Local Repository
-- Use **Fetch** to see all of the Commit's Push's basically to see everyone's progress
+- Use **[↔] Commit** after you're done coding in order for it to be saved in the Timeline (Local Repository)
+- Use **[↗] Push** to upload the codebase to your specified branch
+- Use **[↙] Update Project** to Update the entire codebase in your Local Repository
+- Use **[⇢] Fetch** to see all of the Commit's Push's basically to see everyone's progress
 
 Once your Certain that your branch is Finalized (Ready) Go to [This Project's Pull Request](https://github.com/altxxr0/Javocado/pulls) > New Pull Request > [Select Your Branch] > Make sure ``base:main`` and ``compare:mybranchname`` > Create Pull Request (2x) > [Input in Description the Changes you have made]
 
