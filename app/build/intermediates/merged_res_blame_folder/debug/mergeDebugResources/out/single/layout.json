@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/login.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/login.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/signup.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/signup.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/content_main.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/fragment_first.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/profile.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/profile.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/fragment_second.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/fragment_second.xml"
+    }
+]

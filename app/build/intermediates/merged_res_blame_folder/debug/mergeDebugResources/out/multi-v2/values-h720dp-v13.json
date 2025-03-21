@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.gr6.javocado.app-mergeDebugResources-41:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3da8fb112d4a4eb6e0839a8569a0c589\\transformed\\appcompat-1.7.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
