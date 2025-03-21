@@ -18,3 +18,7 @@ Create Your Own Branch in **Android Studio** (Top / Hamburger, Top Left) > Git >
 Once your Certain that your branch is Finalized (Ready) Go to [This Project's Pull Request](https://github.com/altxxr0/Javocado/pulls) > New Pull Request > [Select Your Branch] > Make sure ``base:main`` and ``compare:mybranchname`` > Create Pull Request (2x) > [Input in Description the Changes you have made]
 
 After the Pull Request is Made, Wait for Admin ([Altxxr0](https://github.com/altxxr0)) to merge the reqested changes into main.
+
+## Other Information
+
+- Color Pallete: https://colorhunt.co/palette/ddeb9da0c878143d60eb5b00
