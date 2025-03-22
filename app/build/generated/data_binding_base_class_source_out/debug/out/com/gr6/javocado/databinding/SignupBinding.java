@@ -38,6 +38,9 @@ public final class SignupBinding implements ViewBinding {
   public final Button signupButton;
 
   @NonNull
+  public final TextView signupMessage;
+
+  @NonNull
   public final TextView signupTitle;
 
   @NonNull
@@ -45,7 +48,8 @@ public final class SignupBinding implements ViewBinding {
 
   private SignupBinding(@NonNull LinearLayout rootView, @NonNull EditText emailInput,
       @NonNull TextView loginRedirect, @NonNull ImageView logoImage,
-      @NonNull EditText passwordInput, @NonNull Button signupButton, @NonNull TextView signupTitle,
+      @NonNull EditText passwordInput, @NonNull Button signupButton,
+      @NonNull TextView signupMessage, @NonNull TextView signupTitle,
       @NonNull EditText usernameInput) {
     this.rootView = rootView;
     this.emailInput = emailInput;
@@ -53,6 +57,7 @@ public final class SignupBinding implements ViewBinding {
     this.logoImage = logoImage;
     this.passwordInput = passwordInput;
     this.signupButton = signupButton;
+    this.signupMessage = signupMessage;
     this.signupTitle = signupTitle;
     this.usernameInput = usernameInput;
   }
@@ -114,6 +119,12 @@ public final class SignupBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.signupMessage;
+      TextView signupMessage = ViewBindings.findChildViewById(rootView, id);
+      if (signupMessage == null) {
+        break missingId;
+      }
+
       id = R.id.signupTitle;
       TextView signupTitle = ViewBindings.findChildViewById(rootView, id);
       if (signupTitle == null) {
@@ -127,7 +138,7 @@ public final class SignupBinding implements ViewBinding {
       }
 
       return new SignupBinding((LinearLayout) rootView, emailInput, loginRedirect, logoImage,
-          passwordInput, signupButton, signupTitle, usernameInput);
+          passwordInput, signupButton, signupMessage, signupTitle, usernameInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

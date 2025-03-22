@@ -54,6 +54,16 @@
         android:background="@drawable/rounded_edittext"
         android:layout_marginTop="8dp"/>
 
+    <TextView
+        android:id="@+id/signupMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
+
     <Button
         android:id="@+id/signupButton"
         android:layout_width="match_parent"

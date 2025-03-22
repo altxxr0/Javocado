@@ -4,7 +4,7 @@
             "outputFile": "com.gr6.javocado.app-mergeDebugResources-41:/values-pt/values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3da8fb112d4a4eb6e0839a8569a0c589\\transformed\\appcompat-1.7.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\40994c946379bba7bc53d5add90d44e5\\transformed\\appcompat-1.7.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\a907477fe2148d3b426f704a2bb39f58\\transformed\\navigation-ui-2.8.7\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,119",
-                        "endOffsets": "162,282"
-                    },
-                    "to": {
-                        "startLines": "36,37",
-                        "startColumns": "4,4",
-                        "startOffsets": "3578,3690",
-                        "endColumns": "111,119",
-                        "endOffsets": "3685,3805"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\59d7fcc5b2e872cd2e426c055caadc32\\transformed\\core-1.13.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3f083abcdae15c5a20ed114f578f252e\\transformed\\core-1.13.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2843,2940,3042,3141,3241,3348,3458,3896",
                         "endColumns": "96,101,98,99,106,109,119,100",
                         "endOffsets": "2935,3037,3136,3236,3343,3453,3573,3992"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\d0030c0921a34250e7f0f4898bbfc034\\transformed\\navigation-ui-2.8.7\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,119",
+                        "endOffsets": "162,282"
+                    },
+                    "to": {
+                        "startLines": "36,37",
+                        "startColumns": "4,4",
+                        "startOffsets": "3578,3690",
+                        "endColumns": "111,119",
+                        "endOffsets": "3685,3805"
                     }
                 }
             ]

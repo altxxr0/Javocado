@@ -3170,6 +3170,10 @@ id FUNCTION
 id FirstFragment
 id META
 id NO_DEBUG
+id Option1
+id Option2
+id Option3
+id Option4
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3420,6 +3424,7 @@ id listMode
 id list_item
 id locale
 id loginButton
+id loginMessage
 id loginRedirect
 id loginTitle
 id logoImage
@@ -3542,6 +3547,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressBar
 id progressXP
 id progress_circular
 id progress_horizontal
@@ -3588,6 +3594,7 @@ id showHome
 id showTitle
 id signUpButton
 id signupButton
+id signupMessage
 id signupTitle
 id sin
 id skipCollapsed
@@ -3674,6 +3681,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvQuestion
+id tvTitle
 id unchecked
 id uniform
 id unlabeled
@@ -3837,6 +3846,7 @@ layout fragment_second
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout login
+layout lvl1
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

@@ -29,6 +29,9 @@ public final class LoginBinding implements ViewBinding {
   public final Button loginButton;
 
   @NonNull
+  public final TextView loginMessage;
+
+  @NonNull
   public final TextView loginTitle;
 
   @NonNull
@@ -44,12 +47,13 @@ public final class LoginBinding implements ViewBinding {
   public final EditText usernameInput;
 
   private LoginBinding(@NonNull LinearLayout rootView, @NonNull TextView forgotPassword,
-      @NonNull Button loginButton, @NonNull TextView loginTitle, @NonNull ImageView logoImage,
-      @NonNull EditText passwordInput, @NonNull Button signUpButton,
+      @NonNull Button loginButton, @NonNull TextView loginMessage, @NonNull TextView loginTitle,
+      @NonNull ImageView logoImage, @NonNull EditText passwordInput, @NonNull Button signUpButton,
       @NonNull EditText usernameInput) {
     this.rootView = rootView;
     this.forgotPassword = forgotPassword;
     this.loginButton = loginButton;
+    this.loginMessage = loginMessage;
     this.loginTitle = loginTitle;
     this.logoImage = logoImage;
     this.passwordInput = passwordInput;
@@ -96,6 +100,12 @@ public final class LoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loginMessage;
+      TextView loginMessage = ViewBindings.findChildViewById(rootView, id);
+      if (loginMessage == null) {
+        break missingId;
+      }
+
       id = R.id.loginTitle;
       TextView loginTitle = ViewBindings.findChildViewById(rootView, id);
       if (loginTitle == null) {
@@ -126,8 +136,8 @@ public final class LoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new LoginBinding((LinearLayout) rootView, forgotPassword, loginButton, loginTitle,
-          logoImage, passwordInput, signUpButton, usernameInput);
+      return new LoginBinding((LinearLayout) rootView, forgotPassword, loginButton, loginMessage,
+          loginTitle, logoImage, passwordInput, signUpButton, usernameInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

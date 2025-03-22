@@ -31,12 +31,6 @@
         android:textStyle="bold"
         android:layout_marginBottom="16dp" />
 
-    <ImageView
-        android:id="@+id/ivCharacter"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:src="@drawable/java_logo"
-        android:layout_marginBottom="16dp" />
 
     <TextView
         android:id="@+id/tvQuestion"

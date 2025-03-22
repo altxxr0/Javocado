@@ -4,7 +4,7 @@
             "outputFile": "com.gr6.javocado.app-mergeDebugResources-41:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3da8fb112d4a4eb6e0839a8569a0c589\\transformed\\appcompat-1.7.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\40994c946379bba7bc53d5add90d44e5\\transformed\\appcompat-1.7.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3578907a781d412b304f722868c81144\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\367db66457c6038f1ebb6592b5a41087\\transformed\\material-1.12.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -4,7 +4,41 @@
             "outputFile": "com.gr6.javocado.app-mergeDebugResources-41:/values-el/values-el.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3578907a781d412b304f722868c81144\\transformed\\material-1.12.0\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3f083abcdae15c5a20ed114f578f252e\\transformed\\core-1.13.0\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,256,356,459,567,673,790",
+                        "endColumns": "97,102,99,102,107,105,116,100",
+                        "endOffsets": "148,251,351,454,562,668,785,886"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,118",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3543,3641,3744,3844,3947,4055,4161,10383",
+                        "endColumns": "97,102,99,102,107,105,116,100",
+                        "endOffsets": "3636,3739,3839,3942,4050,4156,4273,10479"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\d0030c0921a34250e7f0f4898bbfc034\\transformed\\navigation-ui-2.8.7\\res\\values-el\\values-el.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,172",
+                        "endColumns": "116,121",
+                        "endOffsets": "167,289"
+                    },
+                    "to": {
+                        "startLines": "111,112",
+                        "startColumns": "4,4",
+                        "startOffsets": "9723,9840",
+                        "endColumns": "116,121",
+                        "endOffsets": "9835,9957"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\367db66457c6038f1ebb6592b5a41087\\transformed\\material-1.12.0\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,41 +57,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\59d7fcc5b2e872cd2e426c055caadc32\\transformed\\core-1.13.0\\res\\values-el\\values-el.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,256,356,459,567,673,790",
-                        "endColumns": "97,102,99,102,107,105,116,100",
-                        "endOffsets": "148,251,351,454,562,668,785,886"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,118",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3543,3641,3744,3844,3947,4055,4161,10383",
-                        "endColumns": "97,102,99,102,107,105,116,100",
-                        "endOffsets": "3636,3739,3839,3942,4050,4156,4273,10479"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\a907477fe2148d3b426f704a2bb39f58\\transformed\\navigation-ui-2.8.7\\res\\values-el\\values-el.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,172",
-                        "endColumns": "116,121",
-                        "endOffsets": "167,289"
-                    },
-                    "to": {
-                        "startLines": "111,112",
-                        "startColumns": "4,4",
-                        "startOffsets": "9723,9840",
-                        "endColumns": "116,121",
-                        "endOffsets": "9835,9957"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\3da8fb112d4a4eb6e0839a8569a0c589\\transformed\\appcompat-1.7.0\\res\\values-el\\values-el.xml",
+                    "source": "C:\\Users\\jpfau\\.gradle\\caches\\8.11.1\\transforms\\40994c946379bba7bc53d5add90d44e5\\transformed\\appcompat-1.7.0\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

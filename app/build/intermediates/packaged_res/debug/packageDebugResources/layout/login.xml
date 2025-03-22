@@ -11,8 +11,8 @@
         android:id="@+id/logoImage"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:src="@drawable/javocado"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/javocado" />
 
     <TextView
         android:id="@+id/loginTitle"
@@ -30,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
+        android:inputType="text"
         android:padding="12dp"
         android:background="@drawable/rounded_edittext"
         android:layout_marginTop="16dp"/>
@@ -43,6 +44,16 @@
         android:padding="12dp"
         android:background="@drawable/rounded_edittext"
         android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/loginMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"/>
 
     <Button
         android:id="@+id/loginButton"
