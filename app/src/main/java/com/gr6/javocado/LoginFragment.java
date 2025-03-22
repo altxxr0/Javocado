@@ -17,6 +17,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import java.io.InputStream;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+
 import android.animation.ValueAnimator;
 
 public class LoginFragment extends Fragment {
@@ -36,7 +46,6 @@ public class LoginFragment extends Fragment {
         String username = usernameInput.getText().toString().trim();
         String password = passwordInput.getText().toString().trim();
 
-        // Clear previous messages
         loginMessage.setVisibility(View.GONE);
 
         if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {
@@ -44,20 +53,43 @@ public class LoginFragment extends Fragment {
             return;
         }
 
-        // Hardcoded credentials check
-        if (username.equals("admin") && password.equals("1234")) {
+        if (validateCredentials(username, password)) {
             showMessage("Login successful!", false);
-
-            // Delay transition slightly to allow message to appear
             loginMessage.postDelayed(() -> {
                 requireActivity().getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.fragmentContainer, new HomeFragment())
                         .commit();
-            }, 500); // 500ms delay
+            }, 500);
         } else {
             showMessage("Invalid username or password", true);
         }
+    }
+
+    private boolean validateCredentials(String username, String password) {
+        try {
+            InputStream inputStream = getResources().openRawResource(R.raw.data);
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document doc = builder.parse(inputStream);
+            doc.getDocumentElement().normalize();
+
+            NodeList nodeList = doc.getElementsByTagName("user");
+            for (int i = 0; i < nodeList.getLength(); i++) {
+                Node node = nodeList.item(i);
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+                    Element element = (Element) node;
+                    String storedUsername = element.getElementsByTagName("username").item(0).getTextContent();
+                    String storedPassword = element.getElementsByTagName("password").item(0).getTextContent();
+                    if (username.equals(storedUsername) && password.equals(storedPassword)) {
+                        return true;
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return false;
     }
 
 

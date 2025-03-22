@@ -5,7 +5,6 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -19,7 +18,23 @@ import androidx.fragment.app.Fragment;
 
 import android.animation.ValueAnimator;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import java.io.File;
+import java.io.InputStream;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.OutputKeys;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+
 public class SignupFragment extends Fragment {
+
+    private View signUpButton;
 
     public SignupFragment() {
         // Required empty public constructor
@@ -50,16 +65,116 @@ public class SignupFragment extends Fragment {
         usernameInput = view.findViewById(R.id.usernameInput);
         passwordInput = view.findViewById(R.id.passwordInput);
         signupMessage = view.findViewById(R.id.signupMessage);
+        emailInput = view.findViewById(R.id.emailInput);
+        signUpButton = view.findViewById(R.id.signupButton);
+
 
         usernameInput.addTextChangedListener(inputWatcher);
         passwordInput.addTextChangedListener(inputWatcher);
         emailInput.addTextChangedListener(inputWatcher);
 
-        Button signUpButton = view.findViewById(R.id.signupButton);
-        signUpButton.setOnClickListener(v -> goTologin());
+        loginRedirect.setOnClickListener(v -> goTologin());
 
+        signUpButton.setOnClickListener(v -> {
+            String username = usernameInput.getText().toString().trim();
+            String password = passwordInput.getText().toString().trim();
+            String email = emailInput.getText().toString().trim();
+
+            if (!TextUtils.isEmpty(username) && !TextUtils.isEmpty(password) && !TextUtils.isEmpty(email)) {
+                addUser(username, password, email);
+                goTologin();
+            } else {
+                signupMessage.setText("Please fill in all fields!");
+            }
+        });
         return view;
     }
+
+    private Document getXmlDocument() {
+        try {
+            File file = new File(getActivity().getFilesDir(), "data.xml");
+
+            if (!file.exists()) {
+                return createNewXmlDocument();
+            }
+
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            return builder.parse(file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    private Document createNewXmlDocument() {
+        try {
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document document = builder.newDocument();
+
+            Element root = document.createElement("users");
+            document.appendChild(root);
+
+            saveXmlFile(document);  // Save initial empty XML file
+            return document;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    private void addUser(String username, String password, String email) {
+        try {
+            Document document = getXmlDocument();
+            if (document == null) return;
+
+            Element root = document.getDocumentElement();
+
+            Element newUser = document.createElement("user");
+
+            Element usernameElement = document.createElement("username");
+            usernameElement.setTextContent(username);
+
+            Element passwordElement = document.createElement("password");
+            passwordElement.setTextContent(password);
+
+            Element emailElement = document.createElement("email");
+            emailElement.setTextContent(email);
+
+            newUser.appendChild(usernameElement);
+            newUser.appendChild(passwordElement);
+            newUser.appendChild(emailElement);
+
+            root.appendChild(newUser);
+
+            saveXmlFile(document);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    private void saveXmlFile(Document document) {
+        try {
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+            DOMSource source = new DOMSource(document);
+
+            File file = new File(getActivity().getFilesDir(), "data.xml");
+            StreamResult result = new StreamResult(file);
+
+            transformer.transform(source, result);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
 
     private void goTologin() {
         requireActivity().getSupportFragmentManager()

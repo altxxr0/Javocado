@@ -57,6 +57,7 @@ menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph
+raw data
 string action_settings
 string app_name
 string first_fragment_label

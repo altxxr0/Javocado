@@ -52,10 +52,6 @@
         "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\profile.xml"
     },
     {
-        "merged": "com.gr6.javocado.app-debug-43:/layout_signup.xml.flat",
-        "source": "com.gr6.javocado.app-main-45:/layout/signup.xml"
-    },
-    {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_rounded_edittext.xml.flat",
         "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\rounded_edittext.xml"
     },
@@ -122,6 +118,14 @@
     {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_signup.xml.flat",
         "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\raw_data.xml.flat",
+        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\raw\\data.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-debug-43:/raw_data.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/raw/data.xml"
     },
     {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
