@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#80000000"/> <!-- Shadow Color -->
+        </shape>
+    </item>
+
+    <item android:top="5dp"> <!-- Offset for Shadow Effect -->
+        <shape android:shape="rectangle">
+            <solid android:color="#143D60"/> <!-- Your Original Green Color -->
+        </shape>
+    </item>
+
+</layer-list>

@@ -61,12 +61,12 @@ public class SignupFragment extends Fragment {
         });
 
         logoImage = view.findViewById(R.id.logoImage);
-        signupTitle = view.findViewById(R.id.signupTitle);
+        signupTitle = view.findViewById(R.id.signUpTitle);
         usernameInput = view.findViewById(R.id.usernameInput);
         passwordInput = view.findViewById(R.id.passwordInput);
         signupMessage = view.findViewById(R.id.signupMessage);
         emailInput = view.findViewById(R.id.emailInput);
-        signUpButton = view.findViewById(R.id.signupButton);
+        signUpButton = view.findViewById(R.id.button_signup);
 
 
         usernameInput.addTextChangedListener(inputWatcher);
