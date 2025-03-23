@@ -5,7 +5,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="45dp"
-    android:background="#ffffff">
+    android:background="#DD9A40">
 
     <ImageView
         android:id="@+id/logoImage"
@@ -15,13 +15,17 @@
         android:layout_gravity="center_horizontal"/>
 
     <TextView
-        android:id="@+id/signupTitle"
+        android:id="@+id/signUpTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:textColor="#000"
+        android:shadowColor="#2D3E1F"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="3"
+        android:textColor="#DDEB9D"
         android:layout_marginTop="12dp"
         android:layout_gravity="center_horizontal"/>
 
@@ -30,7 +34,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
+        android:inputType="text"
         android:padding="12dp"
+        android:textColorHint="#fff"
+        android:textStyle="bold"
+        android:drawableLeft="@android:color/transparent"
+        android:shadowColor="#2D3E1F"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="3"
+        android:drawablePadding="3dp"
         android:background="@drawable/rounded_edittext"
         android:layout_marginTop="16dp"/>
 
@@ -38,9 +51,17 @@
         android:id="@+id/emailInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Email Address"
-        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:inputType="text"
         android:padding="12dp"
+        android:textColorHint="#fff"
+        android:textStyle="bold"
+        android:drawableLeft="@android:color/transparent"
+        android:shadowColor="#2D3E1F"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="3"
+        android:drawablePadding="3dp"
         android:background="@drawable/rounded_edittext"
         android:layout_marginTop="8dp"/>
 
@@ -49,8 +70,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:padding="12dp"
+        android:textColorHint="#fff"
+        android:textStyle="bold"
+        android:drawableLeft="@android:color/transparent"
+        android:shadowColor="#2D3E1F"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="3"
+        android:drawablePadding="3dp"
         android:background="@drawable/rounded_edittext"
         android:layout_marginTop="8dp"/>
 
@@ -65,15 +94,19 @@
         android:visibility="gone"/>
 
     <Button
-        android:id="@+id/signupButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:textStyle="bold"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:textColor="#ffffff"
-        android:backgroundTint="#4CAF50"
+        android:shadowColor="#2D3E1F"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="3"
+        android:backgroundTint="#143D60"
         android:layout_marginTop="16dp"
+        android:elevation="30dp"
         android:padding="12dp"/>
 
     <TextView
@@ -81,9 +114,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already Have an Account? Log In"
-        android:textColor="#000"
-        android:textStyle="bold"
+        android:textColor="#DDEB9D"
         android:textSize="14sp"
+        android:textStyle="bold"
+        android:shadowColor="#2D3E1F"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="3"
         android:layout_marginTop="8dp"
         android:layout_gravity="center_horizontal"/>
 </LinearLayout>

@@ -134,7 +134,7 @@
                 android:id="@+id/progressXP"
                 style="?android:attr/progressBarStyleHorizontal"
                 android:layout_width="match_parent"
-                android:layout_height="7dp"
+                android:layout_height="10dp"
                 android:layout_margin="5dp"
                 android:progress="50"
                 android:max="100"

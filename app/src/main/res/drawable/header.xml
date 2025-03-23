@@ -1,15 +1,13 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <corners android:radius="25dp"/>
             <solid android:color="#80000000"/> <!-- Shadow Color -->
         </shape>
     </item>
 
-    <item android:right="4dp" android:bottom="4dp"> <!-- Offset for Shadow Effect -->
+    <item android:bottom="5dp"> <!-- Offset for Shadow Effect -->
         <shape android:shape="rectangle">
-            <corners android:radius="25dp"/>
-            <solid android:color="#2E7D32"/> <!-- Your Original Green Color -->
+            <solid android:color="#A0C878"/> <!-- Your Original Green Color -->
         </shape>
     </item>
 
