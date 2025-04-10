@@ -6,11 +6,14 @@ Like Duolingo, **Javocado** is a Java programming learning tool that aims to mak
 ## 📦 How to clone in Android Studio 📦
 Go to **Android Studio** > Clone Repository > Input to URL: [https://github.com/altxxr0/Javocado.git](https://github.com/altxxr0/Javocado.git) > Clone
 
+Settings (top Right) > Settings... > Version Control > Github > Add > Log In via Github
+
 Then **Android Studio** Toolbar (Top / Hamburger, Top Left) > Git > Update Project 
 
 ## ⤴ Contribution ⤴
 Create Your Own Branch in **Android Studio** (Top / Hamburger, Top Left) > Git > New Branch ...
 
+- Use **[↗] Update Project** to Update the entire project, if you haven't code anything (Do this first when starting/after you have already commited)
 - Use **[↔] Commit** after you're done coding in order for it to be saved in the Timeline (Local Repository)
 - Use **[↗] Push** to upload the codebase to your specified branch
 - Use **[⇢] Fetch** to see all of the Commit's Push's basically to see everyone's progress
