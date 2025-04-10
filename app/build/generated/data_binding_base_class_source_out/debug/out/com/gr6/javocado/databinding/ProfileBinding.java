@@ -4,8 +4,9 @@ package com.gr6.javocado.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.ScrollView;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -17,19 +18,37 @@ import java.lang.String;
 
 public final class ProfileBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final RelativeLayout rootView;
+
+  @NonNull
+  public final ImageView footer;
+
+  @NonNull
+  public final RelativeLayout home;
+
+  @NonNull
+  public final ImageView homeButton;
+
+  @NonNull
+  public final ImageView profileButton;
 
   @NonNull
   public final ProgressBar progressXP;
 
-  private ProfileBinding(@NonNull ScrollView rootView, @NonNull ProgressBar progressXP) {
+  private ProfileBinding(@NonNull RelativeLayout rootView, @NonNull ImageView footer,
+      @NonNull RelativeLayout home, @NonNull ImageView homeButton, @NonNull ImageView profileButton,
+      @NonNull ProgressBar progressXP) {
     this.rootView = rootView;
+    this.footer = footer;
+    this.home = home;
+    this.homeButton = homeButton;
+    this.profileButton = profileButton;
     this.progressXP = progressXP;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -54,13 +73,34 @@ public final class ProfileBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.footer;
+      ImageView footer = ViewBindings.findChildViewById(rootView, id);
+      if (footer == null) {
+        break missingId;
+      }
+
+      RelativeLayout home = (RelativeLayout) rootView;
+
+      id = R.id.home_button;
+      ImageView homeButton = ViewBindings.findChildViewById(rootView, id);
+      if (homeButton == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_button;
+      ImageView profileButton = ViewBindings.findChildViewById(rootView, id);
+      if (profileButton == null) {
+        break missingId;
+      }
+
       id = R.id.progressXP;
       ProgressBar progressXP = ViewBindings.findChildViewById(rootView, id);
       if (progressXP == null) {
         break missingId;
       }
 
-      return new ProfileBinding((ScrollView) rootView, progressXP);
+      return new ProfileBinding((RelativeLayout) rootView, footer, home, homeButton, profileButton,
+          progressXP);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

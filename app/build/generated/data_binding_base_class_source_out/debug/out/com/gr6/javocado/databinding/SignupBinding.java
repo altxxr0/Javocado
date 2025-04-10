@@ -23,6 +23,9 @@ public final class SignupBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final Button buttonSignup;
+
+  @NonNull
   public final EditText emailInput;
 
   @NonNull
@@ -35,30 +38,26 @@ public final class SignupBinding implements ViewBinding {
   public final EditText passwordInput;
 
   @NonNull
-  public final Button signupButton;
+  public final TextView signUpTitle;
 
   @NonNull
   public final TextView signupMessage;
 
   @NonNull
-  public final TextView signupTitle;
-
-  @NonNull
   public final EditText usernameInput;
 
-  private SignupBinding(@NonNull LinearLayout rootView, @NonNull EditText emailInput,
-      @NonNull TextView loginRedirect, @NonNull ImageView logoImage,
-      @NonNull EditText passwordInput, @NonNull Button signupButton,
-      @NonNull TextView signupMessage, @NonNull TextView signupTitle,
-      @NonNull EditText usernameInput) {
+  private SignupBinding(@NonNull LinearLayout rootView, @NonNull Button buttonSignup,
+      @NonNull EditText emailInput, @NonNull TextView loginRedirect, @NonNull ImageView logoImage,
+      @NonNull EditText passwordInput, @NonNull TextView signUpTitle,
+      @NonNull TextView signupMessage, @NonNull EditText usernameInput) {
     this.rootView = rootView;
+    this.buttonSignup = buttonSignup;
     this.emailInput = emailInput;
     this.loginRedirect = loginRedirect;
     this.logoImage = logoImage;
     this.passwordInput = passwordInput;
-    this.signupButton = signupButton;
+    this.signUpTitle = signUpTitle;
     this.signupMessage = signupMessage;
-    this.signupTitle = signupTitle;
     this.usernameInput = usernameInput;
   }
 
@@ -89,6 +88,12 @@ public final class SignupBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.button_signup;
+      Button buttonSignup = ViewBindings.findChildViewById(rootView, id);
+      if (buttonSignup == null) {
+        break missingId;
+      }
+
       id = R.id.emailInput;
       EditText emailInput = ViewBindings.findChildViewById(rootView, id);
       if (emailInput == null) {
@@ -113,9 +118,9 @@ public final class SignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signupButton;
-      Button signupButton = ViewBindings.findChildViewById(rootView, id);
-      if (signupButton == null) {
+      id = R.id.signUpTitle;
+      TextView signUpTitle = ViewBindings.findChildViewById(rootView, id);
+      if (signUpTitle == null) {
         break missingId;
       }
 
@@ -125,20 +130,14 @@ public final class SignupBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signupTitle;
-      TextView signupTitle = ViewBindings.findChildViewById(rootView, id);
-      if (signupTitle == null) {
-        break missingId;
-      }
-
       id = R.id.usernameInput;
       EditText usernameInput = ViewBindings.findChildViewById(rootView, id);
       if (usernameInput == null) {
         break missingId;
       }
 
-      return new SignupBinding((LinearLayout) rootView, emailInput, loginRedirect, logoImage,
-          passwordInput, signupButton, signupMessage, signupTitle, usernameInput);
+      return new SignupBinding((LinearLayout) rootView, buttonSignup, emailInput, loginRedirect,
+          logoImage, passwordInput, signUpTitle, signupMessage, usernameInput);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

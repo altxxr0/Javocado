@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/home"
+    android:id="@+id/home_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DD9A40"
+    android:background="#9FC777"
     tools:context=".MainActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:translationZ="1dp"
+        android:background="#99BF72" />
+
+    <RelativeLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DD9A40"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        tools:context=".MainActivity">
 
 
     <ImageView
@@ -214,5 +230,16 @@
         android:src="@drawable/profile"
         android:layout_alignParentBottom = "true"/>
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+    </FrameLayout>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="#143D60" />
 </RelativeLayout>

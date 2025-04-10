@@ -8,12 +8,12 @@
         "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/signup.xml",
-        "source": "com.gr6.javocado.app-main-45:/layout/signup.xml"
-    },
-    {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-mergeDebugResources-42:\\layout\\fragment_first.xml",
         "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-mergeDebugResources-42:\\layout\\home.xml",
+        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\home.xml"
     },
     {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-mergeDebugResources-42:\\layout\\signup.xml",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-mergeDebugResources-42:\\layout\\fragment_second.xml",
         "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-mergeDebugResources-42:/layout/profile.xml",
+        "source": "com.gr6.javocado.app-main-45:/layout/profile.xml"
     },
     {
         "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-mergeDebugResources-42:\\layout\\profile.xml",

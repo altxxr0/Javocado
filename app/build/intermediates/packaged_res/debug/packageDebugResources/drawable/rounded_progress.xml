@@ -12,7 +12,7 @@
         <clip>
             <shape android:shape="rectangle">
                 <corners android:radius="50dp"/>
-                <solid android:color="#4CAF50"/> <!-- Green Progress -->
+                <solid android:color="#DD9A40"/> <!-- Green Progress -->
             </shape>
         </clip>
     </item>
