@@ -1,218 +1,222 @@
 [
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_fragment_first.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\fragment_first.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_content_main.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/content_main.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_friends.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\friends.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/menu_menu_main.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/menu/menu_main.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_subheader.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\subheader.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_defaultlocation.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/defaultlocation.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_syntax_preview.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\syntax_preview.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/xml_backup_rules.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\content_main.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_heart.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/heart.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_login_button.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\login_button.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_rounded_edittext.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/rounded_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_rounded_progress.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\rounded_progress.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_activity_main.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_button_login.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\button_login.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_fragment_first.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/fragment_first.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_seed.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\seed.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_subheader.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/subheader.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_footer.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\footer.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_line.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/line.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_three.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\three.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_defaultprofile.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/defaultprofile.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\xml\\data_extraction_rules.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_signup.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/signup.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_profile.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\profile.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_courses.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/courses.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_home.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\home.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_profile.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\profile.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_one.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\one.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_lvl1.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\lvl1.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/xml_data_extraction_rules.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\navigation_nav_graph.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\navigation\\nav_graph.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout-v28_codeorder.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout-v28/codeorder.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_achivements.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\achivements.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\fragment_second.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_three.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/three.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_heart.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\heart.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\xml\\backup_rules.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_line.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\line.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_login_button.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/login_button.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_home.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/home.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\menu\\menu_main.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_seed.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/seed.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_home.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\home.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_javocado.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/javocado.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_one.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/one.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_profile.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/profile.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\raw_data.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\raw\\data.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_footer.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/footer.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_defaultprofile.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\defaultprofile.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_javocado.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\javocado.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_syntax_preview.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/syntax_preview.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_levelbox.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/levelbox.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\color_light_green.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\color\\light_green.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_codeorder.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/codeorder.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_defaultlocation.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\defaultlocation.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_home.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/home.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_courses.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\courses.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_friends.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/friends.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_rounded_edittext.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\rounded_edittext.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_lvl1.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/lvl1.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_output_preview.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/output_preview.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\activity_main.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_login.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\login.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_two.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/two.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_two.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\two.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/navigation_nav_graph.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/navigation/nav_graph.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_levelbox.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\levelbox.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_header.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/header.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_output_preview.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\output_preview.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/layout_fragment_second.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/fragment_second.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_header.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\header.xml"
-    },
-    {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\layout_signup.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\layout\\signup.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_button_login.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/button_login.xml"
     },
     {
         "merged": "com.gr6.javocado.app-debug-43:/layout_profile.xml.flat",
         "source": "com.gr6.javocado.app-main-45:/layout/profile.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_achivements.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/achivements.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\drawable\\ic_launcher_background.xml"
+        "merged": "com.gr6.javocado.app-debug-43:/drawable_rounded_progress.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/drawable/rounded_progress.xml"
     },
     {
-        "merged": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-debug-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\jpfau\\.gradle\\daemon\\8.11.1\\com.gr6.javocado.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.gr6.javocado.app-debug-43:/raw_data.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/raw/data.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-debug-43:/layout_login.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/layout/login.xml"
+    },
+    {
+        "merged": "com.gr6.javocado.app-debug-43:/color_light_green.xml.flat",
+        "source": "com.gr6.javocado.app-main-45:/color/light_green.xml"
     }
 ]

@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Javocado" parent="Base.Theme.Javocado" />
+    <style name="SquareButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_square_size</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
 </resources>

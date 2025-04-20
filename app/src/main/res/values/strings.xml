@@ -43,4 +43,11 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="rearrange_the_code_to_the_corrects_parts">Rearrange the code to the corrects parts</string>
+    <string name="answer_1" />
+    <string name="answer_2" />
+    <string name="answer_3" />
+    <string name="answer1">answer1</string>
+    <string name="answer2">answer2</string>
+    <string name="answer3">answer3</string>
 </resources>

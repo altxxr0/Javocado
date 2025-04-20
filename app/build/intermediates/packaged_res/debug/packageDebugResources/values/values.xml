@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="Blue">#143D60</color>
+    <color name="Green">#A0C878</color>
     <dimen name="fab_margin">16dp</dimen>
+    <item name="buttonContainer" type="id">buttoncontain</item>
+    <item name="dropTarget" type="id">dropTarget</item>
     <string name="action_settings">Settings</string>
+    <string name="answer1">answer1</string>
+    <string name="answer2">answer2</string>
+    <string name="answer3">answer3</string>
+    <string name="answer_1"/>
+    <string name="answer_2"/>
+    <string name="answer_3"/>
     <string name="app_name">Javocado</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="lorem_ipsum">
@@ -42,10 +52,17 @@
     </string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="rearrange_the_code_to_the_corrects_parts">Rearrange the code to the corrects parts</string>
     <string name="second_fragment_label">Second Fragment</string>
     <style name="Base.Theme.Javocado" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+    </style>
+    <style name="SquareButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_square_size</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">0dp</item>
     </style>
     <style name="Theme.Javocado" parent="Base.Theme.Javocado"/>
 </resources>

@@ -4,7 +4,7 @@
             "outputFile": "com.gr6.javocado.app-mergeDebugResources-41:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jpfau\\AndroidStudioProjects\\Sample\\Javocado\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
+                    "source": "D:\\Javocado\\javocado 2.0\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
