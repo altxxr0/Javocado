@@ -1,0 +1,183 @@
+[
+  {
+    "id": "1",
+    "title": "Java Basics",
+    "drawableRes": "ic_javocado_logo",
+    "lessons": [
+      {
+        "id": "1",
+        "title": "Variables",
+        "description": "Basic concepts of variables",
+        "seeds": 10,
+        "difficulty": "Easy",
+        "drawableRes": "les_variables",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is a variable?",
+            "options": ["Container", "Loop", "Method"],
+            "correctAnswer": "Container",
+            "textClue": "Variables store data"
+          },
+          {
+            "id": "2",
+            "type": "FILL_IN_THE_BLANK",
+            "question": "A variable holds a _____ value.",
+            "correctAnswer": "data",
+            "textClue": "Variables hold data values"
+          },
+          {
+            "id": "3",
+            "type": "CODE_PATTERN",
+            "question": "public class Main {\n    public static void main(String[] args) {\n        System.out._____(\"_____ World\");\n    }\n}",
+            "options": ["println", "print", "Hello"],
+            "correctAnswers": ["println", "Hello"],
+            "textClue": "Fill in the method name and the missing word in the string."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Data Types",
+        "description": "Introduction to Java data types",
+        "seeds": 15,
+        "difficulty": "Easy",
+        "drawableRes": "les_data_types",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of these is a primitive data type?",
+            "options": ["String", "int", "ArrayList"],
+            "correctAnswer": "int",
+            "textClue": "Primitive types include int, char, boolean, etc."
+          },
+          {
+            "id": "2",
+            "type": "FILL_IN_THE_BLANK",
+            "question": "The default value of a boolean is _____ .",
+            "correctAnswer": "false",
+            "textClue": "Boolean default is false."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Java Control Flow",
+    "drawableRes": "ic_control_flow",
+    "lessons": [
+      {
+        "id": "1",
+        "title": "If Statements",
+        "description": "Conditional branching using if statements",
+        "seeds": 20,
+        "difficulty": "Medium",
+        "drawableRes": "les_if_statements",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What keyword is used for else-if in Java?",
+            "options": ["elseif", "else if", "elif"],
+            "correctAnswer": "else if",
+            "textClue": "Java uses 'else if' as two words."
+          },
+          {
+            "id": "2",
+            "type": "CODE_PATTERN",
+            "question": "if (x > 10) {\n    System.out.println(\"x is greater than 10\");\n} else _____ {\n    System.out.println(\"x is 10 or less\");\n}",
+            "options": ["if", "else if", "else"],
+            "correctAnswer": "else",
+            "textClue": "The else block runs when the if condition is false."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Loops",
+        "description": "For, while and do-while loops",
+        "seeds": 25,
+        "difficulty": "Medium",
+        "drawableRes": "les_loops",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which loop is guaranteed to run at least once?",
+            "options": ["for", "while", "do-while"],
+            "correctAnswer": "do-while",
+            "textClue": "do-while checks condition after loop body executes."
+          },
+          {
+            "id": "2",
+            "type": "FILL_IN_THE_BLANK",
+            "question": "A _____ loop repeats as long as its condition is true.",
+            "correctAnswer": "while",
+            "textClue": "While loops check the condition before executing."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Object-Oriented Programming",
+    "drawableRes": "ic_oop",
+    "lessons": [
+      {
+        "id": "1",
+        "title": "Classes and Objects",
+        "description": "Understanding classes and objects",
+        "seeds": 30,
+        "difficulty": "Hard",
+        "drawableRes": "les_classes_objects",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What keyword is used to create an object?",
+            "options": ["new", "class", "object"],
+            "correctAnswer": "new",
+            "textClue": "Objects are instantiated with 'new'."
+          },
+          {
+            "id": "2",
+            "type": "CODE_PATTERN",
+            "question": "public class Car {\n    String model;\n    int year;\n\n    public Car(String model, int year) {\n        this.model = model;\n        this.year = year;\n    }\n}\n\nCar myCar = new Car(\"Tesla\", 2020);",
+            "options": [],
+            "correctAnswer": "",
+            "textClue": "Constructor initializes fields."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Inheritance",
+        "description": "Extending classes with inheritance",
+        "seeds": 35,
+        "difficulty": "Hard",
+        "drawableRes": "les_inheritance",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which keyword is used for inheritance in Java?",
+            "options": ["implements", "extends", "inherits"],
+            "correctAnswer": "extends",
+            "textClue": "'extends' indicates inheritance."
+          },
+          {
+            "id": "2",
+            "type": "FILL_IN_THE_BLANK",
+            "question": "The subclass inherits all _____ members of the superclass.",
+            "correctAnswer": "non-private",
+            "textClue": "Private members are not inherited."
+          }
+        ]
+      }
+    ]
+  }
+]
