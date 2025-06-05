@@ -43,7 +43,7 @@
         "description": "Introduction to Java data types",
         "seeds": 15,
         "difficulty": "Easy",
-        "drawableRes": "les_data_types",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
@@ -75,7 +75,7 @@
         "description": "Conditional branching using if statements",
         "seeds": 20,
         "difficulty": "Medium",
-        "drawableRes": "les_if_statements",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
@@ -101,7 +101,7 @@
         "description": "For, while and do-while loops",
         "seeds": 25,
         "difficulty": "Medium",
-        "drawableRes": "les_loops",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
@@ -133,7 +133,7 @@
         "description": "Understanding classes and objects",
         "seeds": 30,
         "difficulty": "Hard",
-        "drawableRes": "les_classes_objects",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
@@ -159,7 +159,7 @@
         "description": "Extending classes with inheritance",
         "seeds": 35,
         "difficulty": "Hard",
-        "drawableRes": "les_inheritance",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
@@ -184,7 +184,7 @@
         "description": "How Java allows methods to behave differently based on the object",
         "seeds": 40,
         "difficulty": "Hard",
-        "drawableRes": "les_polymorphism",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
@@ -209,7 +209,7 @@
         "description": "Defining contracts with interfaces",
         "seeds": 35,
         "difficulty": "Medium",
-        "drawableRes": "les_interfaces",
+        "drawableRes": "les_variables",
         "levels": [
           {
             "id": "1",
