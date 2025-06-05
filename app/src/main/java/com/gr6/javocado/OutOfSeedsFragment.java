@@ -24,11 +24,19 @@ public class OutOfSeedsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
         // - INFLATE THE LAYOUT FOR THIS FRAGMENT - //
         View view = inflater.inflate(R.layout.fragment_out_of_seeds, container, false);
 
         // - GET REFERENCE TO THE SEEDS COUNT TEXTVIEW - //
         TextView seedsCount = view.findViewById(R.id.seedsCount);
+
+        // - "-1" FIX - //
+        if (Integer.parseInt(seedsCount.getText().toString()) == -1){
+            seedsCount.setText("0");
+        }
 
         // - RETRIEVE CURRENT SEEDS COUNT FROM MEMORY - //
         int seeds = MainActivity.Memory.getSeeds(requireContext());

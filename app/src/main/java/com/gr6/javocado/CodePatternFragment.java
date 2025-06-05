@@ -97,6 +97,11 @@ public class CodePatternFragment extends Fragment {
         int seeds = MainActivity.Memory.getSeeds(requireContext());
         seedsCount.setText(String.valueOf(seeds));
 
+        // - "-1" FIX - //
+        if (Integer.parseInt(seedsCount.getText().toString()) == -1){
+            seedsCount.setText("0");
+        }
+
         // - BUILD THE LESSON UI - //
         setupUI();
         return view;

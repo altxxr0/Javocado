@@ -67,6 +67,11 @@ public class DeveloperOptionsFragment extends Fragment {
             seedsCount.setText("0");
         }
 
+        // - "-1" FIX - //
+        if (Integer.parseInt(seedsCount.getText().toString()) == -1){
+            seedsCount.setText("0");
+        }
+
         // - SET SEEDS BUTTON - //
         setSeedsButton.setOnClickListener(v -> {
             String input = seedInput.getText().toString().trim();

@@ -128,6 +128,11 @@ public class MultipleChoiceFragment extends Fragment {
         int seeds = MainActivity.Memory.getSeeds(requireContext());
         seedsCount.setText(String.valueOf(seeds));
 
+        // - "-1" FIX - //
+        if (Integer.parseInt(seedsCount.getText().toString()) == -1){
+            seedsCount.setText("0");
+        }
+
         return view;
     }
 
