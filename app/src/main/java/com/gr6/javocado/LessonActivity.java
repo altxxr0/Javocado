@@ -307,7 +307,6 @@ public class LessonActivity extends AppCompatActivity {
             currentIndex++;
             showLevel(currentIndex);
         } else {
-            // Mark this lesson as complete in Memory (per lesson)
             MainActivity.Memory.setLessonCompleted(this, currentLessonNumber, true);
             Log.d("LessonActivity", "Lesson marked completed: " + currentLessonNumber);
 

@@ -75,7 +75,7 @@
         "description": "Conditional branching using if statements",
         "seeds": 5,
         "difficulty": "Medium",
-        "drawableRes": "res_ifstatements.",
+        "drawableRes": "res_ifstatements",
         "levels": [
           {
             "id": "1",
