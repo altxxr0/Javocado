@@ -151,7 +151,10 @@ public class LessonActivity extends AppCompatActivity {
         levels = loadLevels();
 
         // - GET LESSON NUMBER FROM INTENT - //
-        currentLessonNumber = getIntent().getStringExtra("lessonNumber");
+        String chapterId = getIntent().getStringExtra("chapterId");
+        String lessonId = getIntent().getStringExtra("lessonNumber");
+
+        currentLessonNumber = chapterId + "_" + lessonId;
 
         // - SHOW FIRST LEVEL - //
         showLevel(currentIndex);

@@ -71,6 +71,11 @@ public class ChaptersFragment extends Fragment {
         ImageView chapterActionIcon = view.findViewById(R.id.expandChapters);
         chapterActionIcon.setScaleX(-1f);
         chapterActionIcon.setOnClickListener(v -> {
+            v.animate()
+                    .rotationBy(180f)
+                    .setDuration(300)
+                    .start();
+
             if (requireActivity().getSupportFragmentManager().getBackStackEntryCount() > 0) {
                 requireActivity().getSupportFragmentManager().popBackStack();
             } else {
@@ -82,11 +87,13 @@ public class ChaptersFragment extends Fragment {
             }
         });
 
+
         // - INITIALIZE COMPONENTS - //
         ImageView chapterIcon = view.findViewById(R.id.ChapterIcon);
         TextView chapterText = view.findViewById(R.id.ChapterText);
         TextView progressText = view.findViewById(R.id.ProgressText);
         ProgressBar progressBar = view.findViewById(R.id.progressBar);
+
 
         // - GET & SET CURRENT CHAPTER DATA - //
         Prefabs.ChapterData currentChapterData = initPrefabs();
@@ -276,20 +283,42 @@ public class ChaptersFragment extends Fragment {
 
             // - ONCLICK BEHAVIOR: SET CHAPTER AND RETURN TO MAIN - //
             actionIcon.setOnClickListener(v -> {
-                MainActivity.Memory.setCurrentChapter(context, chapter.title);
-                Bundle result = new Bundle();
-                result.putString("chapter", chapter.title);
-                Intent intent = new Intent(requireContext(), MainActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-                requireActivity().finish(); // Optional: close current instance
+                // - SCALE ON CLICK - //
+                v.animate()
+                        .scaleX(0.8f)
+                        .scaleY(0.8f)
+                        .setDuration(1000)
+                        .withEndAction(() -> {
+                            v.animate().scaleX(1f).scaleY(1f).setDuration(100).start();
 
+                            // Navigate to new chapter
+                            MainActivity.Memory.setCurrentChapter(context, chapter.title);
+                            Bundle result = new Bundle();
+                            result.putString("chapter", chapter.title);
+                            Intent intent = new Intent(requireContext(), MainActivity.class);
+                            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+                            startActivity(intent);
+                            requireActivity().finish();
+                        })
+                        .start();
             });
 
             // - ADD CAPSULE TO CHAPTERS CONTAINER - //
             ChapterViewHolder holder = new ChapterViewHolder(
                     chapter.title, chapterIcon, progressText, progressBar
             );
+
+            // - FADE-IN ANIMATION FOR CHAPTER CAPSULE - //
+            chapterCapsule.setAlpha(0f);
+            chapterCapsule.setTranslationY(50);
+            chapterCapsule.animate()
+                    .alpha(1f)
+                    .translationY(0)
+                    .setDuration(400)
+                    .setStartDelay(chapterViews.size() * 100)
+                    .start();
+
+
             chapterViews.add(holder);
             chaptersContainer.addView(chapterCapsule);
         }

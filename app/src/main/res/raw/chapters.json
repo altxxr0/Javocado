@@ -177,6 +177,57 @@
             "textClue": "Private members are not inherited."
           }
         ]
+      },
+      {
+        "id": "3",
+        "title": "Polymorphism",
+        "description": "How Java allows methods to behave differently based on the object",
+        "seeds": 40,
+        "difficulty": "Hard",
+        "drawableRes": "les_polymorphism",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is polymorphism in Java?",
+            "options": ["Overriding", "Inheritance", "Encapsulation"],
+            "correctAnswer": "Overriding",
+            "textClue": "Polymorphism often involves method overriding."
+          },
+          {
+            "id": "2",
+            "type": "FILL_IN_THE_BLANK",
+            "question": "Method _____ allows a subclass to provide a specific implementation.",
+            "correctAnswer": "overriding",
+            "textClue": "Method overriding is central to polymorphism."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Interfaces",
+        "description": "Defining contracts with interfaces",
+        "seeds": 35,
+        "difficulty": "Medium",
+        "drawableRes": "les_interfaces",
+        "levels": [
+          {
+            "id": "1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What keyword is used to define an interface?",
+            "options": ["interface", "implements", "extends"],
+            "correctAnswer": "interface",
+            "textClue": "Interfaces are defined with the keyword `interface`."
+          },
+          {
+            "id": "2",
+            "type": "CODE_PATTERN",
+            "question": "interface Animal {\n    void makeSound();\n}\n\nclass Dog _____ Animal {\n    public void makeSound() {\n        System.out.println(\"Bark\");\n    }\n}",
+            "options": ["implements", "extends", "inherits"],
+            "correctAnswer": "implements",
+            "textClue": "Classes use `implements` to follow an interface."
+          }
+        ]
       }
     ]
   }

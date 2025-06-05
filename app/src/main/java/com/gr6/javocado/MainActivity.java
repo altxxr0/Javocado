@@ -10,6 +10,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.Gravity;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Toast;
 import android.widget.Button;
 import android.content.Intent;
@@ -38,12 +40,26 @@ public class MainActivity extends AppCompatActivity {
     private TextView seedsCount;
     private int logoTapCount = 0;
     private long lastTapTime = 0;
+    private boolean menuOpen = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
+
+        // - ANIMATION - //
+        LinearLayout menu;
+        FrameLayout menuOverlay;
+        menuOverlay = findViewById(R.id.menuOverlay);
+        menu = findViewById(R.id.menu);
+        ImageView menuIcon = findViewById(R.id.menuIcon);
+        Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.fade_in);
+        Animation fadeInDelayed = AnimationUtils.loadAnimation(this, R.anim.fade_in_delayed);
+
+        findViewById(R.id.profileCard).startAnimation(fadeIn);
+        findViewById(R.id.lessonsTitleTextView).startAnimation(fadeIn);
+        findViewById(R.id.lessons).startAnimation(fadeInDelayed);
+
 
         // - CURRENT CHAPTER - //
         ImageView chapterIcon = findViewById(R.id.ChapterIcon);
@@ -80,9 +96,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // - (SIDE) MENU - //
-        ImageView menuIcon = findViewById(R.id.menuIcon);
-        LinearLayout menu = findViewById(R.id.menu);
-        FrameLayout menuOverlay = findViewById(R.id.menuOverlay);
         menuIcon.setOnClickListener(v -> {
             menuOverlay.setVisibility(View.VISIBLE);
             menu.setVisibility(View.VISIBLE);

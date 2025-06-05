@@ -52,9 +52,13 @@ public class LessonDoneFragment extends Fragment {
 
         // - MARK THE LESSON AS COMPLETED IN SHARED PREFERENCES - //
         String lessonNumber = getArguments() != null ? getArguments().getString("lessonNumber", null) : null;
+        String chapterId = getArguments() != null ? getArguments().getString("chapterId", "unknown_chapter") : "unknown_chapter";
+
         if (lessonNumber != null) {
-            MainActivity.Memory.setLessonCompleted(requireContext(), lessonNumber, true);
+            String fullLessonKey = chapterId + "_" + lessonNumber;
+            MainActivity.Memory.setLessonCompleted(requireContext(), fullLessonKey, true);
         }
+
 
         // - ADD REWARD SEEDS TO USER'S TOTAL AND DISPLAY IT - //
         int reward = LessonActivity.LessonLevel.Rewards.getReward();
