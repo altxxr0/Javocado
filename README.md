@@ -24,6 +24,10 @@ Like Duolingo, **Javocado** is a Java programming learning tool that aims to mak
 
 Go to Side Menu > Tap Javocado Icon 3-4 Times to get into Developer Options of Javocado
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e213f490-ca03-4a0a-8c99-cd31c586b67a" alt="Javocado Progression Preview" width="200">
+</p>
+
 ## 📦 How to clone in Android Studio 📦
 Go to **Android Studio** > Clone Repository > Input to URL: [https://github.com/altxxr0/Javocado.git](https://github.com/altxxr0/Javocado.git) > Clone
 
