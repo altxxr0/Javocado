@@ -39,7 +39,7 @@ After the Pull Request is Made, Wait for Admin ([Altxxr0](https://github.com/alt
 ---------------------
 
 # Project Assigned By:
-![STI Collage Branch](https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41)
+<img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" alt="Image" style="max-width: 400px; height: auto;">
 
 ---------------------
 
