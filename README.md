@@ -50,7 +50,7 @@ After the Pull Request is Made, Wait for Admin ([Altxxr0](https://github.com/alt
 ---------------------
 
 #### Project Assigned By:
-<img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" alt="Image" width="150">
+<img href="https://sti.edu" src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" alt="Image" width="150">
 
 ---------------------
 
