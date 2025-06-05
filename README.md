@@ -35,6 +35,12 @@ Once your Certain that your branch is Finalized (Ready) Go to [This Project's Pu
 
 After the Pull Request is Made, Wait for Admin ([Altxxr0](https://github.com/altxxr0)) to merge the reqested changes into main.
 
+
+---------------------
+
+# Project Assigned By:
+![STI Collage Branch](https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41)
+
 ---------------------
 
 <a href="https://github.com/altxxr0/Javocado">Javocado</a> © 2025 by <a href="https://github.com/altxxr0">Altxxr</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
