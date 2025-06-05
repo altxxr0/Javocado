@@ -6,11 +6,11 @@ Like Duolingo, **Javocado** is a Java programming learning tool that aims to mak
 
 ## 📄 Documentation
 
-[📃Doumentation](https://github.com/altxxr0/Javocado/blob/main/docs%2FJavocado%20Documentation.pdf), Best to Download it rather than viewing through Github.
+[📃Doumentation](https://github.com/altxxr0/Javocado/blob/master/docs%2FJavocado%20Documentation.pdf), Best to Download it rather than viewing through Github.
 
 ### UML/Class Diagram
 
-![Javocado Diagram](https://raw.githubusercontent.com/altxxr0/Javocado/main/docs/Javocado%20Diagram.svg)
+![Javocado Diagram](https://raw.githubusercontent.com/altxxr0/Javocado/master/docs/Javocado%20Diagram.svg)
 
 ## Developer Options
 
@@ -35,8 +35,15 @@ Once your Certain that your branch is Finalized (Ready) Go to [This Project's Pu
 
 After the Pull Request is Made, Wait for Admin ([Altxxr0](https://github.com/altxxr0)) to merge the reqested changes into main.
 
+
 ---------------------
 
-<a href="https://github.com/altxxr0/Javocado">Javocado</a> © 2025 by <a href="https://github.com/altxxr0">Altxxr</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">
+#### Project Assigned By:
+<img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" alt="Image" width="150">
+
+
+---------------------
+
+<a href="https://github.com/altxxr0/Javocado">Javocado</a> © 2025 by <a href="https://github.com/altxxr0">Altxxr</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="20"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="20">
 
 
