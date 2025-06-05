@@ -140,6 +140,7 @@ public class LessonActivity extends AppCompatActivity {
 
     // - CURRENT LESSON NUMBER PASSED FROM MAIN - //
     private String currentLessonNumber;
+    private String chapterId;
 
     // - INITIAL SETUP FOR LESSON ACTIVITY - //
     @Override
@@ -151,7 +152,7 @@ public class LessonActivity extends AppCompatActivity {
         levels = loadLevels();
 
         // - GET LESSON NUMBER FROM INTENT - //
-        String chapterId = getIntent().getStringExtra("chapterId");
+        chapterId = getIntent().getStringExtra("chapterId");
         String lessonId = getIntent().getStringExtra("lessonNumber");
 
         currentLessonNumber = chapterId + "_" + lessonId;
@@ -276,8 +277,8 @@ public class LessonActivity extends AppCompatActivity {
         } else if (level.getType() == LevelType.CODE_PATTERN) {
             fragment = CodePatternFragment.newInstance(
                     level.getQuestion(),
-                    level.getOptions(),
-                    level.getCorrectAnswers(),
+                    level.getOptions() == null ? new ArrayList<>() : level.getOptions(),
+                    level.getCorrectAnswers() == null ? new ArrayList<>() : level.getCorrectAnswers(),
                     level.getTextClue(),
                     index
             );
@@ -306,11 +307,16 @@ public class LessonActivity extends AppCompatActivity {
             currentIndex++;
             showLevel(currentIndex);
         } else {
-            Fragment doneFragment = LessonDoneFragment.newInstance(getFailureCount(), currentLessonNumber);
+            // Mark this lesson as complete in Memory (per lesson)
+            MainActivity.Memory.setLessonCompleted(this, currentLessonNumber, true);
+            Log.d("LessonActivity", "Lesson marked completed: " + currentLessonNumber);
+
+            Fragment doneFragment = LessonDoneFragment.newInstance(getFailureCount(), currentLessonNumber, chapterId);
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.fragment_container, doneFragment)
                     .commit();
         }
     }
+
 }

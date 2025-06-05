@@ -189,9 +189,11 @@ public class MainActivity extends AppCompatActivity {
                 int chapterDrawableId = Prefabs.getDrawableIdByName(this, chapter.drawableRes);
                 chapterIcon.setImageResource(chapterDrawableId);
 
+                // Count completed lessons using full key
                 int completed = 0;
                 for (Prefabs.LessonData lesson : chapter.lessons) {
-                    if (Memory.isLessonCompleted(this, lesson.id)) {
+                    String lessonKey = chapter.id + "_" + lesson.id;
+                    if (Memory.isLessonCompleted(this, lessonKey)) {
                         completed++;
                     }
                 }
@@ -206,6 +208,7 @@ public class MainActivity extends AppCompatActivity {
                 for (Prefabs.LessonData lesson : chapter.lessons) {
                     int lessonDrawableId = Prefabs.getDrawableIdByName(this, lesson.drawableRes);
                     createLesson(this, lessonsContainer,
+                            chapter.id,
                             lesson.id,
                             lesson.title,
                             lesson.description,
@@ -240,10 +243,8 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         updateSeeds();
 
-        // Re-initialize the chapters and lessons view to reflect any progress changes
         initPrefabs();
 
-        // Force redraw on the lessons container (if needed)
         LinearLayout lessonsContainer = findViewById(R.id.lessons);
         lessonsContainer.invalidate();
         lessonsContainer.requestLayout();
@@ -308,7 +309,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // - LESSON CREATOR - //
-    public void createLesson(Context context, LinearLayout container, String lessonNumber, String lessonTitle,
+    public void createLesson(Context context, LinearLayout container, String chapterId, String lessonNumber, String lessonTitle,
                              String description, int reward, String difficulty, int codeImageResId,
                              List<LessonActivity.LessonLevel> levels) {
 
@@ -357,13 +358,14 @@ public class MainActivity extends AppCompatActivity {
         Drawable wrapped = DrawableCompat.wrap(background.mutate());
 
         // - LESSON BUTTON VARIATIONS - //
-        if (currentLesson > 1 && !Memory.isLessonCompleted(context, String.valueOf(previousLesson))) {
+        String prevLessonKey = chapterId + "_" + previousLesson;
+        if (currentLesson > 1 && !Memory.isLessonCompleted(context, prevLessonKey)) {
             DrawableCompat.setTint(wrapped, Color.parseColor("#858585"));
             expandButton.setBackground(wrapped);
             expandButton.setText("Lesson Locked 🔒");
             expandButton.setTextColor(Color.WHITE);
         } else {
-            if (Memory.isLessonCompleted(context, lessonNumber)) {
+            if (!Memory.isLessonCompleted(context, prevLessonKey)) {
                 expandButton.setText("Review Lesson 📚");
                 DrawableCompat.setTint(wrapped, Color.parseColor("#B2FF59"));
                 expandButton.setBackground(wrapped);
@@ -379,7 +381,7 @@ public class MainActivity extends AppCompatActivity {
         // - SET LESSONS VIEW - //
         final View[] lesson = new View[1];
 
-        lesson[0] = createLesson(context, lilita, lessonNumber, lessonTitle,
+        lesson[0] = createLesson(context, lilita, chapterId, lessonNumber, lessonTitle,
                 description, reward, difficulty, codeImageResId,
                 levels,
                 v -> {
@@ -393,7 +395,7 @@ public class MainActivity extends AppCompatActivity {
         allLessons.add(lesson[0]);
 
         expandButton.setOnClickListener(v -> {
-            if (currentLesson > 1 && !Memory.isLessonCompleted(context, String.valueOf(previousLesson))) {
+            if (currentLesson > 1 && !Memory.isLessonCompleted(context, prevLessonKey)) {
                 Toast.makeText(context, "Complete Lesson " + previousLesson + " first!", Toast.LENGTH_SHORT).show();
             } else {
                 for (View card : allLessons) {
@@ -426,6 +428,7 @@ public class MainActivity extends AppCompatActivity {
 
     // - LESSON CREATOR (OVERLOAD) - //
     public View createLesson(Context context, Typeface lilita,
+                             String chapterId,
                              String lessonNumber, String lessonTitle,
                              String description, int sReward,
                              String difficulty, int codeImageResId,
@@ -490,6 +493,7 @@ public class MainActivity extends AppCompatActivity {
         startBtn.setBackground(ContextCompat.getDrawable(context, R.drawable.rounded_button_yellow));
         startBtn.setOnClickListener(v -> {
             Intent intent = new Intent(context, LessonActivity.class);
+            intent.putExtra("chapterId", chapterId);
             intent.putExtra("lessonTitle", lessonTitle);
             intent.putExtra("lessonNumber", lessonNumber);
             intent.putExtra("levels", new Gson().toJson(levels));
@@ -516,7 +520,10 @@ public class MainActivity extends AppCompatActivity {
         FrameLayout wrapper = new FrameLayout(context);
         wrapper.addView(contentLayout);
         wrapper.addView(cancelBtn);
+
+        // - ADD WRAPPER TO CARD - //
         lesson.addView(wrapper);
+
         return lesson;
     }
 }

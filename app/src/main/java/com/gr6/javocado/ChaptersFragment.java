@@ -111,7 +111,9 @@ public class ChaptersFragment extends Fragment {
             int completed = 0;
             if (currentChapterData.lessons != null) {
                 for (Prefabs.LessonData lesson : currentChapterData.lessons) {
-                    if (MainActivity.Memory.isLessonCompleted(requireContext(), lesson.id)) {
+
+                    String lessonKey = currentChapterData.id + "_" + lesson.id;
+                    if (MainActivity.Memory.isLessonCompleted(requireContext(), lessonKey)) {
                         completed++;
                     }
                 }
@@ -234,9 +236,12 @@ public class ChaptersFragment extends Fragment {
             // - PROGRESS TEXT - //
             TextView progressText = new TextView(context);
             int completed = 0;
-            for (Prefabs.LessonData lesson : chapter.lessons) {
-                if (MainActivity.Memory.isLessonCompleted(requireContext(), lesson.id)) {
-                    completed++;
+            if (chapter.lessons != null) {
+                for (Prefabs.LessonData lesson : chapter.lessons) {
+                    String lessonKey = chapter.id + "_" + lesson.id;
+                    if (MainActivity.Memory.isLessonCompleted(requireContext(), lessonKey)) {
+                        completed++;
+                    }
                 }
             }
 

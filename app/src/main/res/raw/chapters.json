@@ -2,13 +2,13 @@
   {
     "id": "1",
     "title": "Java Basics",
-    "drawableRes": "ic_javocado_logo",
+    "drawableRes": "ic_java_basics",
     "lessons": [
       {
         "id": "1",
         "title": "Variables",
         "description": "Basic concepts of variables",
-        "seeds": 10,
+        "seeds": 3,
         "difficulty": "Easy",
         "drawableRes": "les_variables",
         "levels": [
@@ -41,9 +41,9 @@
         "id": "2",
         "title": "Data Types",
         "description": "Introduction to Java data types",
-        "seeds": 15,
+        "seeds": 3,
         "difficulty": "Easy",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_datatypes",
         "levels": [
           {
             "id": "1",
@@ -73,9 +73,9 @@
         "id": "1",
         "title": "If Statements",
         "description": "Conditional branching using if statements",
-        "seeds": 20,
+        "seeds": 5,
         "difficulty": "Medium",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_ifstatements.",
         "levels": [
           {
             "id": "1",
@@ -88,10 +88,10 @@
           {
             "id": "2",
             "type": "CODE_PATTERN",
-            "question": "if (x > 10) {\n    System.out.println(\"x is greater than 10\");\n} else _____ {\n    System.out.println(\"x is 10 or less\");\n}",
-            "options": ["if", "else if", "else"],
-            "correctAnswer": "else",
-            "textClue": "The else block runs when the if condition is false."
+            "question": "public class _____ {\n    public static void _____(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}",
+            "options": ["Main", "main", "class", "static", "void"],
+            "correctAnswers": ["Main", "main"],
+            "textClue": "Fill in the correct class name and main method declaration."
           }
         ]
       },
@@ -99,9 +99,9 @@
         "id": "2",
         "title": "Loops",
         "description": "For, while and do-while loops",
-        "seeds": 25,
+        "seeds": 5,
         "difficulty": "Medium",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_forloops",
         "levels": [
           {
             "id": "1",
@@ -131,9 +131,9 @@
         "id": "1",
         "title": "Classes and Objects",
         "description": "Understanding classes and objects",
-        "seeds": 30,
+        "seeds": 10,
         "difficulty": "Hard",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_oop",
         "levels": [
           {
             "id": "1",
@@ -146,9 +146,9 @@
           {
             "id": "2",
             "type": "CODE_PATTERN",
-            "question": "public class Car {\n    String model;\n    int year;\n\n    public Car(String model, int year) {\n        this.model = model;\n        this.year = year;\n    }\n}\n\nCar myCar = new Car(\"Tesla\", 2020);",
-            "options": [],
-            "correctAnswer": "",
+            "question": "public class Car {\n    String model;\n    int year;\n\n    public Car(String _____, int _____) {\n        this.model = _____;\n        this.year = _____;\n    }\n}\n\nCar myCar = new Car(\"Tesla\", 2020);",
+            "options": ["model", "year", "Tesla", "2020"],
+            "correctAnswers": ["model", "year", "model", "year"],
             "textClue": "Constructor initializes fields."
           }
         ]
@@ -157,9 +157,9 @@
         "id": "2",
         "title": "Inheritance",
         "description": "Extending classes with inheritance",
-        "seeds": 35,
+        "seeds": 10,
         "difficulty": "Hard",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_inheritance",
         "levels": [
           {
             "id": "1",
@@ -182,9 +182,9 @@
         "id": "3",
         "title": "Polymorphism",
         "description": "How Java allows methods to behave differently based on the object",
-        "seeds": 40,
+        "seeds": 10,
         "difficulty": "Hard",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_polymorphism",
         "levels": [
           {
             "id": "1",
@@ -207,9 +207,9 @@
         "id": "4",
         "title": "Interfaces",
         "description": "Defining contracts with interfaces",
-        "seeds": 35,
+        "seeds": 5,
         "difficulty": "Medium",
-        "drawableRes": "les_variables",
+        "drawableRes": "res_interfaces",
         "levels": [
           {
             "id": "1",
@@ -224,7 +224,7 @@
             "type": "CODE_PATTERN",
             "question": "interface Animal {\n    void makeSound();\n}\n\nclass Dog _____ Animal {\n    public void makeSound() {\n        System.out.println(\"Bark\");\n    }\n}",
             "options": ["implements", "extends", "inherits"],
-            "correctAnswer": "implements",
+            "correctAnswers": ["implements"],
             "textClue": "Classes use `implements` to follow an interface."
           }
         ]

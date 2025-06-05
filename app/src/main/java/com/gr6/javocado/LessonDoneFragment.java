@@ -17,11 +17,12 @@ public class LessonDoneFragment extends Fragment {
     }
 
     // - CREATES A NEW INSTANCE OF THE FRAGMENT WITH FAILURE COUNT AND LESSON NUMBER - //
-    public static LessonDoneFragment newInstance(int failureCount, String lessonNumber) {
+    public static LessonDoneFragment newInstance(int failureCount, String lessonNumber, String chapterId) {
         LessonDoneFragment fragment = new LessonDoneFragment();
         Bundle args = new Bundle();
         args.putInt("failureCount", failureCount);
         args.putString("lessonNumber", lessonNumber);
+        args.putString("chapterId", chapterId);
         fragment.setArguments(args);
         return fragment;
     }
