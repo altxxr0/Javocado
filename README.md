@@ -22,7 +22,7 @@ Like Duolingo, **Javocado** is a Java programming learning tool that aims to mak
 
 ## Developer Options
 
-Go to Side Menu > Tap Javocado Icon 3-4 Times to get into Developer Options of Javocado
+Go to **Side Menu > Tap Javocado Icon 3-4 Times** to get into Developer Options of Javocado
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e213f490-ca03-4a0a-8c99-cd31c586b67a" alt="Javocado Progression Preview" width="200">
