@@ -6,11 +6,11 @@ Like Duolingo, **Javocado** is a Java programming learning tool that aims to mak
 
 ## 📄 Documentation
 
-[📃Doumentation](https://github.com/altxxr0/Javocado/blob/main/docs%2FJavocado%20Documentation.pdf), Best to Download it rather than viewing through Github.
+[📃Doumentation](https://github.com/altxxr0/Javocado/blob/master/docs%2FJavocado%20Documentation.pdf), Best to Download it rather than viewing through Github.
 
 ### UML/Class Diagram
 
-![Javocado Diagram](https://raw.githubusercontent.com/altxxr0/Javocado/main/docs/Javocado%20Diagram.svg)
+![Javocado Diagram](https://raw.githubusercontent.com/altxxr0/Javocado/master/docs/Javocado%20Diagram.svg)
 
 ## Developer Options
 
