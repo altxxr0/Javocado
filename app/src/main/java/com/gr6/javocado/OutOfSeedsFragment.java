@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
+import org.w3c.dom.Text;
+
 public class OutOfSeedsFragment extends Fragment {
 
     // - BACK TO MENU BUTTON INSTANCE - //
@@ -63,6 +65,17 @@ public class OutOfSeedsFragment extends Fragment {
         // - INITIALIZE BACK TO MENU BUTTON AND SET CLICK HANDLER TO RETURN TO MAIN ACTIVITY - //
         back_to_menu = view.findViewById(R.id.back_to_menu);
         back_to_menu.setOnClickListener(v -> {
+            if (getActivity() != null) {
+                Intent intent = new Intent(getActivity(), MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
+                startActivity(intent);
+            }
+        });
+
+        TextView get_more_seeds = view.findViewById(R.id.get_more_seeds);
+
+        get_more_seeds.setOnClickListener(v -> {
+            MainActivity.Memory.setSeeds(requireContext(), 1);
             if (getActivity() != null) {
                 Intent intent = new Intent(getActivity(), MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
