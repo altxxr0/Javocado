@@ -6,9 +6,9 @@
 Like Duolingo, **Javocado** is a Java programming learning tool that aims to make coding enjoyable and approachable. It streamlines the Java learning process and assists users in gradually developing their programming abilities through interactive exercises and gamified tutorials.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb2deb72-7eeb-4d49-a202-467bb7d931db" alt="Javocado Progression Preview" width="300">
-  <img src="https://github.com/user-attachments/assets/adaacc2b-86cd-4e08-a65c-340c580941b6" alt="Javocado Failure Preview" width="300">
-  <img src="https://github.com/user-attachments/assets/600f9049-63b3-494b-b0e3-c92cdb65c141" alt="Javocado Chapters Preview" width="300">
+  <img src="https://github.com/user-attachments/assets/cb2deb72-7eeb-4d49-a202-467bb7d931db" alt="Javocado Progression Preview" width="250">
+  <img src="https://github.com/user-attachments/assets/adaacc2b-86cd-4e08-a65c-340c580941b6" alt="Javocado Failure Preview" width="250">
+  <img src="https://github.com/user-attachments/assets/600f9049-63b3-494b-b0e3-c92cdb65c141" alt="Javocado Chapters Preview" width="250">
 </p>
 
 
