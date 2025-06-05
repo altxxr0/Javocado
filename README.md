@@ -1,5 +1,4 @@
 # Javocado
-
 ![JavocadoBanner](https://github.com/user-attachments/assets/ded7d519-c897-4609-a5df-2050bc06e2fe)
 
 
