@@ -29,6 +29,17 @@ android {
     buildFeatures {
         viewBinding true
     }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def appName = "Javocado"
+            def buildType = variant.buildType.name
+            def versionName = variant.versionName
+            def newName = "${appName}.apk"
+            outputFileName = newName
+        }
+    }
+
 }
 
 dependencies {
