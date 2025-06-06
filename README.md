@@ -15,7 +15,7 @@
 
 ## 📄 Documentation
 
-📃 [**Download Full Documentation (PDF)**](https://github.com/altxxr0/Javocado/blob/master/docs%2FJavocado%20Documentation.pdf) — **Recommended** for best viewing.
+📃 [**Download Full Documentation (PDF)**](https://github.com/altxxr0/Javocado/blob/main/docs%2FJavocado%20Documentation.pdf) — **Recommended** for best viewing.
 
 ---
 
