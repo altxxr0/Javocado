@@ -8,7 +8,7 @@
   <img src="https://github.com/user-attachments/assets/adaacc2b-86cd-4e08-a65c-340c580941b6" width="200">
   <img src="https://github.com/user-attachments/assets/600f9049-63b3-494b-b0e3-c92cdb65c141" width="200">
   <br>
-  <sub><em>Loading preview... please wait</em></sub>
+  <sub><em>If the preview doesn't appear right away, please give it a moment to load.</em></sub>
 </p>
 
 ---
@@ -33,7 +33,7 @@ To access **Developer Options**:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e213f490-ca03-4a0a-8c99-cd31c586b67a" width="200">
   <br>
-  <sub><em>Loading preview... please wait</em></sub>
+  <sub><em>If the preview doesn't appear right away, please give it a moment to load.</em></sub>
 </p>
 
 ---
