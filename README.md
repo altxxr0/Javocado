@@ -2,11 +2,12 @@
 ![JavocadoBanner](https://github.com/user-attachments/assets/ded7d519-c897-4609-a5df-2050bc06e2fe)
 
 <div align="center">
-  <img src="https://img.shields.io/github/downloads/altxxr0/javocado/total?style=for-the-badge" />
-  <img src="https://img.shields.io/github/commit-activity/t/altxxr0/javocado?style=for-the-badge" />
-  <img src="https://img.shields.io/github/repo-size/altxxr0/javocado?style=for-the-badge" />
-  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest%3A" />
+  <img src="https://img.shields.io/github/downloads/altxxr0/javocado/total?style=for-the-badge&color=darkgreen" />
+  <img src="https://img.shields.io/github/commit-activity/t/altxxr0/javocado?style=for-the-badge&color=darkgreen" />
+  <img src="https://img.shields.io/github/repo-size/altxxr0/javocado?style=for-the-badge&color=darkgreen" />
+  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest%3A&color=darkgreen" />
 </div>
+
 <br>
 
 **Javocado** is a gamified Java learning tool, like Duolingo but for Java! It simplifies the learning java with interactive exercises and tutorials that make coding fun and accessible.
