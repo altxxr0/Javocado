@@ -1,10 +1,15 @@
 # Javocado
-
 ![JavocadoBanner](https://github.com/user-attachments/assets/ded7d519-c897-4609-a5df-2050bc06e2fe)
+
 
 Like Duolingo, **Javocado** is a Java programming learning tool that aims to make coding enjoyable and approachable. It streamlines the Java learning process and assists users in gradually developing their programming abilities through interactive exercises and gamified tutorials.
 
-![Javocado Progression Preview](https://github.com/user-attachments/assets/cb2deb72-7eeb-4d49-a202-467bb7d931db)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb2deb72-7eeb-4d49-a202-467bb7d931db" alt="Javocado Progression Preview" width="200">
+  <img src="https://github.com/user-attachments/assets/adaacc2b-86cd-4e08-a65c-340c580941b6" alt="Javocado Failure Preview" width="200">
+  <img src="https://github.com/user-attachments/assets/600f9049-63b3-494b-b0e3-c92cdb65c141" alt="Javocado Chapters Preview" width="200">
+</p>
+
 
 ## 📄 Documentation
 
@@ -16,7 +21,11 @@ Like Duolingo, **Javocado** is a Java programming learning tool that aims to mak
 
 ## Developer Options
 
-Go to Side Menu > Tap Javocado Icon 3-4 Times to get into Developer Options of Javocado
+Go to **Side Menu > Tap Javocado Icon 3-4 Times** to get into Developer Options of Javocado
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e213f490-ca03-4a0a-8c99-cd31c586b67a" alt="Javocado Progression Preview" width="200">
+</p>
 
 ## 📦 How to clone in Android Studio 📦
 Go to **Android Studio** > Clone Repository > Input to URL: [https://github.com/altxxr0/Javocado.git](https://github.com/altxxr0/Javocado.git) > Clone
@@ -37,11 +46,12 @@ Once your Certain that your branch is Finalized (Ready) Go to [This Project's Pu
 
 After the Pull Request is Made, Wait for Admin ([Altxxr0](https://github.com/altxxr0)) to merge the reqested changes into main.
 
-
 ---------------------
 
 #### Project Assigned By:
-<img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" alt="Image" width="150">
+<a href="https://sti.edu" target="_blank">
+  <img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" alt="Image" width="150">
+</a>
 
 
 ---------------------
