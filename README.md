@@ -1,6 +1,12 @@
 # Javocado
 ![JavocadoBanner](https://github.com/user-attachments/assets/ded7d519-c897-4609-a5df-2050bc06e2fe)
 
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/altxxr0/javocado/total?style=for-the-badge)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/t/altxxr0/javocado?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/altxxr0/javocado?style=for-the-badge)
+![GitHub Release](https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest%3A)
+
+
 **Javocado** is a gamified Java learning tool—like Duolingo but for Java! It simplifies the learning journey with interactive exercises and tutorials that make coding fun and accessible.
 
 ---
