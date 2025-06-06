@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest%3A" />
 </div>
 
+
 **Javocado** is a gamified Java learning tool—like Duolingo but for Java! It simplifies the learning journey with interactive exercises and tutorials that make coding fun and accessible.
 
 ---
