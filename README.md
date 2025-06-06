@@ -3,6 +3,8 @@
 
 **Javocado** is a gamified Java learning tool—like Duolingo but for Java! It simplifies the learning journey with interactive exercises and tutorials that make coding fun and accessible.
 
+---
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cb2deb72-7eeb-4d49-a202-467bb7d931db" width="200">
   <img src="https://github.com/user-attachments/assets/adaacc2b-86cd-4e08-a65c-340c580941b6" width="200">
@@ -29,6 +31,8 @@
 
 To access **Developer Options**:  
 **Side Menu** > Tap the **Javocado Icon** **3–4 times** rapidly.
+
+---
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e213f490-ca03-4a0a-8c99-cd31c586b67a" width="200">
