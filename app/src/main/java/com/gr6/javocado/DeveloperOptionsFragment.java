@@ -34,11 +34,11 @@ public class DeveloperOptionsFragment extends Fragment {
         // - RESET BUTTON - //
         resetProgressButton.setOnClickListener(v -> {
             // - RESET SEEDS & PROGRESS - //
-            MainActivity.Memory.setSeeds(requireContext(), 0);
+            MainActivity.Memory.setSeeds(requireContext(), 5);
             MainActivity.Memory.reset(requireContext());
 
             // - RESET - //
-            seedsCount.setText("0");
+            seedsCount.setText("5");
             seedInput.setText("");
             Toast.makeText(requireContext(), "Progress reset.", Toast.LENGTH_SHORT).show();
 
