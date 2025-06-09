@@ -5,7 +5,8 @@
   <img src="https://img.shields.io/github/downloads/altxxr0/javocado/total?style=for-the-badge&color=darkgreen" />
   <img src="https://img.shields.io/github/commit-activity/t/altxxr0/javocado?style=for-the-badge&color=darkgreen" />
   <img src="https://img.shields.io/github/repo-size/altxxr0/javocado?style=for-the-badge&color=darkgreen" />
-  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest%3A&color=darkgreen" />
+  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest&color=darkgreen" />
+  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=tag&style=for-the-badge&label=Latest%20Version&color=darkgreen">
 </div>
 
 <br>
