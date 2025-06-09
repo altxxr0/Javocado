@@ -89,6 +89,23 @@ To access **Developer Options**:
 4. Submit PR with a summary of your changes
 5. Wait for Admin [@Altxxr0](https://github.com/altxxr0) to review and merge
 
+### 📱 How to Generate the APK File
+
+1. **Open Android Studio**
+2. Wait for Gradle sync to complete (bottom status bar)
+3. Go to:  
+   `Build > Build Bundle(s) / APK(s) > Build APK(s)`
+4. Wait for the build process to finish (look at the **Build Output** window)
+5. A popup will appear:  
+   **“APK(s) generated successfully.”**
+6. Click **Locate** to open the folder:  
+   `app/build/outputs/apk/debug/`
+7. You'll find `app-debug.apk` — ready to install on Android!
+
+> For **release version**, choose:  
+> `Build > Build Bundle(s) / APK(s) > Build Bundle` or `Build APK (release)` and configure your keystore.
+
+
 ---
 
 ## 🌏 Project Assigned By:
