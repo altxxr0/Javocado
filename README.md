@@ -101,7 +101,7 @@ To access **Developer Options**:
    **“APK(s) generated successfully.”**
 6. Click **Locate** to open the folder:  
    `app/build/outputs/apk/debug/`
-7. You'll find `app-debug.apk` — ready to install on Android!
+7. You'll find `app-debug.apk` - ready to install on Android!
 
 ---
 
