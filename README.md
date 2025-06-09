@@ -91,7 +91,7 @@ To access **Developer Options**:
 
 ---
 
-## 🏫 Project Assigned By:
+## 🌏 Project Assigned By:
 
 <a href="https://sti.edu" target="_blank">
   <img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" width="150">
@@ -99,7 +99,7 @@ To access **Developer Options**:
 
 ---
 
-## 🪪 License
+## 📃 License
 
 **[Javocado](https://github.com/altxxr0/Javocado)** © 2025 by [**Altxxr**](https://github.com/altxxr0) is licensed under  
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)  
