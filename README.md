@@ -89,9 +89,26 @@ To access **Developer Options**:
 4. Submit PR with a summary of your changes
 5. Wait for Admin [@Altxxr0](https://github.com/altxxr0) to review and merge
 
+### 📱 How to Generate the APK File
+
+1. **Open Android Studio**
+2. Wait for Gradle sync to complete (bottom status bar)
+3. Go to:  
+   `Build > Build Bundle(s) / APK(s) > Build APK(s)`
+4. Wait for the build process to finish (look at the **Build Output** window)
+5. A popup will appear:  
+   **“APK(s) generated successfully.”**
+6. Click **Locate** to open the folder:  
+   `app/build/outputs/apk/debug/`
+7. You'll find `app-debug.apk` — ready to install on Android!
+
+> For **release version**, choose:  
+> `Build > Build Bundle(s) / APK(s) > Build Bundle` or `Build APK (release)` and configure your keystore.
+
+
 ---
 
-## 🏫 Project Assigned By:
+## 🌏 Project Assigned By:
 
 <a href="https://sti.edu" target="_blank">
   <img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" width="150">
@@ -99,7 +116,7 @@ To access **Developer Options**:
 
 ---
 
-## 🪪 License
+## 📃 License
 
 **[Javocado](https://github.com/altxxr0/Javocado)** © 2025 by [**Altxxr**](https://github.com/altxxr0) is licensed under  
 [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)  
