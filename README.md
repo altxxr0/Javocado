@@ -102,9 +102,6 @@ To access **Developer Options**:
    `app/build/outputs/apk/debug/`
 7. You'll find `app-debug.apk` — ready to install on Android!
 
-> For **release version**, choose:  
-> `Build > Build Bundle(s) / APK(s) > Build Bundle` or `Build APK (release)` and configure your keystore.
-
 
 ---
 
