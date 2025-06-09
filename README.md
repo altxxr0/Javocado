@@ -5,7 +5,8 @@
   <img src="https://img.shields.io/github/downloads/altxxr0/javocado/total?style=for-the-badge&color=darkgreen" />
   <img src="https://img.shields.io/github/commit-activity/t/altxxr0/javocado?style=for-the-badge&color=darkgreen" />
   <img src="https://img.shields.io/github/repo-size/altxxr0/javocado?style=for-the-badge&color=darkgreen" />
-  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest%3A&color=darkgreen" />
+  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=release&style=for-the-badge&label=Latest&color=darkgreen" />
+  <img src="https://img.shields.io/github/v/release/altxxr0/javocado?display_name=tag&style=for-the-badge&label=Latest%20Version&color=darkgreen">
 </div>
 
 <br>
@@ -88,6 +89,19 @@ To access **Developer Options**:
 3. Base: `main`, Compare: `your-branch-name`
 4. Submit PR with a summary of your changes
 5. Wait for Admin [@Altxxr0](https://github.com/altxxr0) to review and merge
+
+### 📱 How to Generate the APK File
+
+1. **Open Android Studio**
+2. Wait for Gradle sync to complete (bottom status bar)
+3. Go to:  
+   `Build > Build Bundle(s) / APK(s) > Build APK(s)`
+4. Wait for the build process to finish (look at the **Build Output** window)
+5. A popup will appear:  
+   **“APK(s) generated successfully.”**
+6. Click **Locate** to open the folder:  
+   `app/build/outputs/apk/debug/`
+7. You'll find `app-debug.apk` - ready to install on Android!
 
 ---
 
