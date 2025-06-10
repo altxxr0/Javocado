@@ -14,7 +14,7 @@
 **Javocado** is a gamified Java learning tool, like Duolingo but for Java! It simplifies the learning java with interactive exercises and tutorials that make coding fun and accessible.
 
 > 📃 An iLS Requirment for our Web/Computer Programming 3 (Java) & Mobile App Programming 1 (Java)
-<sub>< 1st & 2nd Quarter , 2nd Term ></sub>
+<sub>{ 1st & 2nd Quarter | 2nd Term }</sub>
 
 ---
 
